@@ -1,0 +1,1 @@
+I am about to begin working on my first ever project on The Odin Project! I will be documenting my progress here. 
