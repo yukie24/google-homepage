@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    width: 100%;
+    color:rgba(0, 0, 0, 0.7);
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 100%;
+    padding-top: 25px
+}
+
+.top-right {
+    float: right;
+    position: relative; 
+    top: -17px;
+}
+
+#apps {
+    opacity: .55;
+    transform: scale(1,1.1); 
+}
+
+#apps:hover {
+    opacity: 1;
+}
+
+.top-left-item {
+    margin-left: 15px;
+}
+
+.top-right-item {
+    margin-right: 15px;
+}
+
+#sign-in-button{
+    height: 27px;
+    background-color: rgb(67, 135, 253);
+    color: white;
+    border: none;
+    padding:7px 12px 15px 12px;
+    margin-left: 15px;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+.bottom-left-item {
+    margin-left: 20px;
+    line-height: 50px;
+    color: #222;
+}
+main {
+height: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top:150px;
+}
+
+.search-text-input {
+    height: 44px;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    margin-top:20px;
+}
+
+.search-text-input:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#Google-Search-button {
+    margin-top:20px;
+    height: 30px;
+    background-color: #e0e0e0;
+    border: none;
+    padding:7px 12px 10px 12px;
+    font-size: 13px;
+    border-radius: 4px;
+    margin-right: 5px;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+#Feeling-Lucky-button {
+    height: 30px;
+    background-color: #e0e0e0;
+    border: none;
+    padding:7px 12px 10px 12px;
+    font-size: 13px;
+    border-radius: 4px;
+    margin-left: 5px;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+
+#Google-Search-button:hover {
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    border: 1px solid #c6c6c6;
+}
+
+#Feeling-Lucky-button:hover {
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    border: 1px solid #c6c6c6;
+}
+
+#magnifying-glass {
+    opacity: .45;
+    position: relative;
+    right: 485px;
+}
+
+#microphone {
+    opacity: .45;
+    position: relative;
+    right: 55px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 15px;
+    background-color:#e0e0e0;
+    height: 35px;
+}
+
+.bottom-right-item {
+    float:right;
+    margin-right: 20px;
+    line-height: 50px;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.bottom-right-item {
+    color:rgba(0, 0, 0, 0.7);
+}
